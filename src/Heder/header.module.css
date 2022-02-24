@@ -1,0 +1,101 @@
+
+.navdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.DFimg{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.DFimg>img{
+    width: 68px;
+}
+.navbar{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+.divforbtn{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+
+}
+button{
+    height: 40px;
+    width: 144px;
+    margin: 0px 5px;
+    border-radius: 11px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: none;
+    font-weight: bolder;
+}
+.registr{
+          background-color:#56AF58
+}
+.learnMore{   
+    height: 50px;
+    width: 60%;
+    margin: 0px 5px;
+    border-radius: 11px;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+   background-color:#56AF58;
+    font-weight: bolder;
+}
+.learnMore>span{
+    font-size: 1.4rem;
+    padding: 8px 8px;
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+.mainDiv{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('../main/devushka.jpg');
+    background-size: cover;
+}
+
+.mainfortxt{
+    width: 40%;
+    height: 100%;
+    margin: 0px 50px;
+}
+.mainfortxt>span>p{
+  color: black;
+  font-size: 70px;
+  text-align: center;
+}
+.mainfortxt>span>p>a{
+  color: #56AF58
+}
+.mainDiv2{
+    height: 700px;
+    width: 100%;
+}
+.userc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.userc>div{
+   margin: 10px;
+}
